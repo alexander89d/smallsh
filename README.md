@@ -5,7 +5,7 @@ I completed this project as part of CS 344 (Operating Systems I) during Fall 201
 This project implements a simple Linux command shell. It was developed and tested on a Linux class server running the bash shell (before this shell begins running). The program is written in C (C99 with GNU extensions, compiled with the GCC compiler). 
 
 The smallsh shell implements and supports the following 3 built-in commands:
-- cd (allows changing the current working directory)
+- cd (allows changing the working directory)
 - status (returns the exit status of or signal raised by the most recently executed foreground command, excluding built-in commands)
 - exit (exits smallsh)
 
