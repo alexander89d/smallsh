@@ -1,4 +1,6 @@
-# Project Overview
+# smallsh
+
+## Project Overview
 
 I completed this project as part of CS 344 (Operating Systems I) during Fall 2019 while I was a student at Oregon State University. **Students in that class were granted express permission to post the source code they submitted for this project publicly for use in professional portfolios.**
 
@@ -22,6 +24,6 @@ Other specifications of smallsh are as follows:
 - SIGINT can be used to interrupt the current foreground process and return control to its parent. SIGINT does _not_ cause the smallsh process or any children running in the background to terminate.
 - SIGSTP can be used to deactivate and reactivate the ability to run commands in the background.
 
-# Repository Structure
+## Repository Structure
 
 The source code for smallsh is located in the src/ folder. **All files in the src/ directory have not been modified since being submitted as part of this course assignment.** For details about how to compile this program, please see [the original README file in the src/ directory](src/readme.txt) that was submitted as part of this course assignment.
